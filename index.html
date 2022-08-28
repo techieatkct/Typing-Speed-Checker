@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Speed & Accuracy</title>
+<meta charset="utf-8">
+<meta content="Ragul Adhithya M" name="author">
+<meta content="A typing speed checker by me" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Kumbh+Sans&family=Ranchers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+</head>
+
+<body oncontextmenu="return false">
+	<div class="main my-5">
+		<div class="content container-fluid">				
+			<h1 class="text-white font-weight-bold"> Check your Typing Speed & Accuracy </h1> <br>
+			<h3 id="message" class="text-dark mx-4 text-center my-4">Text will appear here once you click on Start</h3>
+			<textarea tabindex="0" autocomplete="off" id="text" rows="10" class=" bg-dark text-white"></textarea>
+			<br>
+			<button class="btn btn-light px-4" id="start-btn" style="font-size: 25px;">Start</button>
+		</div>
+		<div id="result" class="mt-2 pt-2  text-center">
+			<h4  class="text-dark"></h4>
+		</div>
+	</div>
+	<script src="design.js"></script>
+</body>
+</html>

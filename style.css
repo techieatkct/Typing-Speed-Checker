@@ -1,0 +1,71 @@
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+body{
+	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	animation: background;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+}
+	
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.content{
+
+	text-align: center;
+	}
+
+.content h1{
+	/* font-family: 'Kufam', cursive; */
+}
+
+#message{
+	font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+#text{
+	font-size: 20px;
+	width: 85%;
+}
+	textarea:focus{
+		
+		animation: border-color-change;
+		animation-duration: 10s;
+		animation-fill-mode: forwards;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		
+	}
+@keyframes background{
+	0%{
+		background-color: rgb(115, 168, 87);
+	}
+	50%{
+		background-color: skyblue;
+	}
+	100%{
+		background-color: #FF8C00;
+	}
+
+}
+	@keyframes border-color-change{
+		0%{
+			border: 3px solid white  ;
+		}
+
+		100%{
+			border: 3px solid  black;
+		}
+		
+	}
